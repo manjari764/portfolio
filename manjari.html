@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>manjari portfolio</title>
+
+  <style>
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 70, 0.08);
+      margin: 18px 0;
+      text-align: center;
+      border: 2px solid transparent;
+      transition: 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(226, 171, 231, 0.5);
+      border-color: #efb3f0;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 0 35px rgba(255, 182, 240, 0.6);
+      border-color: #efb3f0;
+    }
+
+    @import url("https://fonts.google.com/specimen/Caveathttps://fonts.google.com/specimen/Caveat");
+
+
+    body {
+      background: url("https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg?cs=srgb&dl=pexels-eberhardgross-2310713.jpg&fm=jpg") no-repeat center center/cover;
+      color: var(--text);
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    :root {
+      --bg: #e8d0a0;
+      --card: #f8e8f8;
+      --text: #560969;
+      --muted: #370855;
+      --primary: #7e1b05fb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .wrapper {
+      max-width: 700px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 34px;
+      color: var(--primary);
+      letter-spacing: 2px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 70, 0.08);
+      margin: 18px 0;
+      text-align: center;
+    }
+
+    .card h2 {
+      color: var(--primary);
+      margin-bottom: 12px;
+      font-weight: 600;
+    }
+
+    .profile {
+      width: 130px;
+      height: 130px;
+      border-radius: 14px;
+      object-fit: cover;
+      margin-bottom: 12px;
+    }
+
+    .about-box p {
+      font-size: 15px;
+      margin: 3px 0;
+      text-align: center;
+    }
+
+    .skill {
+      margin: 15px 0;
+      text-align: left;
+    }
+
+    .skill span {
+      font-weight: 500;
+    }
+
+    .bar {
+      width: 100%;
+      background: #ddd;
+      height: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-top: 5px;
+    }
+
+    .bar div {
+      height: 100%;
+      background: var(--primary);
+    }
+
+    .hobbies-section {
+      background: var(--card);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 70, 0.08);
+      margin: 18px 0;
+      text-align: center;
+    }
+
+    .hobbies-section h2 {
+      color: var(--primary);
+      margin-bottom: 15px;
+      font-weight: 600;
+      font-size: 24px;
+    }
+
+    .hobby-list {
+      list-style: none;
+      padding: 0;
+    }
+
+     .Music { 
+      background: var(--card);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 70, 0.08);
+      margin: 18px 0;
+      text-align: center;
+      border: 2px solid transparent;
+      transition: 0.4s ease;
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(226, 171, 231, 0.5);
+      border-color: #efb3f0;
+    }
+
+
+     .Music:hover { 
+      background: var(--card);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 4px 10px rgba(0, 0, 70, 0.08);
+      margin: 18px 0;
+      text-align: center;
+      border: 2px solid transparent;
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(226, 171, 231, 0.5);
+      border-color: #efb3f0;
+  }
+
+    .hobby-list li {
+      font-size: 17px;
+      margin: 8px 0;
+      padding: 6px 10px;
+      border-radius: 8px;
+      display: inline-block;
+      background: #f5e3f3;
+    }
+
+    .timeline {
+      list-style: none;
+      padding: 0;
+    }
+
+    .timeline li {
+      margin: 8px 0;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .me {
+      text-align: justify;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+
+
+    <header class="header">
+      <h1>MY PORTFOLIO</h1>
+    </header>
+
+    <section class="card">
+      <h2>MEET ME</h2>
+      <img src="C:\Users\manjari k v\Downloads\1000097420.jpg" class="profile">
+
+      <div class="about-box">
+        <p><strong>Name:</strong> MANJARI K V</p>
+        <p><strong>Course:</strong> B.E CSE</p>
+        <p><strong>College:</strong> JAI SHRIRAM ENGINEERING COLLEGE</p>
+        <p>🎀💗~Not perfect, but unstoppable💫</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>WHAT I DO</h2>
+
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar">
+          <div style="width: 70%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar">
+          <div style="width: 60%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Java</span>
+        <div class="bar">
+          <div style="width: 62%"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <span>Python</span>
+        <div class="bar">
+          <div style="width: 75%"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card hobbies-section">
+      <h2>WHAT I LOVE</h2>
+      <ul class="hobby-list">
+        <li class="Music">🎧 Listening to Music</li>
+        <li class="Music">💻 Learning New Skills</li>
+        <li class="Music">📚 Reading Books</li>
+        <li class="Music">🎨 Drawing & Sketching</li>
+        <li class="Music">📷 Photography</li>
+      </ul>
+    </section>
+
+
+    <section class="card">
+      <h2>ABOUT ME</h2>
+      <p class="me"> My name is Manjari🤍, and I am currently pursuing B.E. Computer Science Engineering🎓. I am
+        passionate about web development, user interface design, and software development💻. I enjoy organizing ideas,
+        learning modern tools, and creating projects that help me gain real experience🦋. I aim to become a skilled
+        developer and contribute to meaningful technological solutions🌍👩‍💻.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>STUDY STACK</h2>
+      <ul class="timeline">
+        <li><strong>2022</strong> — 📚10th Standard</li>
+        <li><strong>2024</strong> — 🏫12th Standard</li>
+        <li><strong>2028</strong> — 🧑‍🎓B.E CSE</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>SAY H!!</h2>c
+      <p>💌Email:</strong>kvmanjari@gmail.com</strong></p>
+      <p>📞phone:<strong>+91 99761 95725</strong></p>
+      <a
+        href="https://www.linkedin.com/in/k-v-manjari-694923351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+        🔗 LinkedIn</a>
+    </section>
+
+    <footer class="footer">
+      © MANJARI K V
+    </footer>
+
+  </div>
+</body>
+
+</html>
